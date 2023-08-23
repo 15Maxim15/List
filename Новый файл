@@ -1,0 +1,3 @@
+def pal(stroke):
+    return  stroke == stroke[::-1]
+print(pal("шалаш"))
